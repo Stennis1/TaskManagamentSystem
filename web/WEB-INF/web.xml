@@ -1,0 +1,13 @@
+<!-- web/WEB-INF/web.xml -->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>TaskController</servlet-name>
+        <servlet-class>com.novatech.taskmanagement.controller.TaskController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TaskController</servlet-name>
+        <url-pattern>/tasks</url-pattern>
+    </servlet-mapping>
+</web-app>

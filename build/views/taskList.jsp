@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <title>NovaTech Task List</title>
+    <title>NovaTech Task Manager</title>
 </head>
 <body>
     <h2>Welcome to NovaTech Task Management System</h2>

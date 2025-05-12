@@ -9,6 +9,8 @@ public class Task {
     private LocalDate dueDate;
     private String status;
 
+    public Task() {}
+
     public Task(int id, String title, String description, LocalDate dueDate, String status) {
         this.id = id;
         this.title = title;

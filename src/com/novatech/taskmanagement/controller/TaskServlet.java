@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.rmi.ServerException;
 import java.util.List;
 
-@WebServlet("/tasks")
+@WebServlet(name = "taskList", urlPatterns = {"/tasks"}, loadOnStartup = 1)
 public class TaskServlet extends HttpServlet {
 
     private TaskDAO taskDAO;
@@ -71,6 +71,5 @@ public class TaskServlet extends HttpServlet {
         taskDAO.deleteTask(id);
         response.sendRedirect("tasks");
     }
-
 
 }
